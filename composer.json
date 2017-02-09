@@ -1,0 +1,25 @@
+{
+  "name": "punarinta/apath",
+  "description": "A way to access data for multidimensional PHP arrays and objects.",
+  "license": "MIT",
+  "keywords": ["array", "access"],
+  "authors":
+  [
+    {
+      "name": "Vladimir Osipov",
+      "email": "vladimir.g.osipov@gmail.com"
+    }
+  ],
+  "require":
+  {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {},
+  "autoload":
+  {
+    "psr-4":
+    {
+      "APath\\": "src/"
+    }
+  }
+}
